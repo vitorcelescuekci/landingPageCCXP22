@@ -1,0 +1,116 @@
+body {
+    background: #FFD900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+}
+
+header{
+    padding: 1rem 4rem;
+}
+
+header img {
+    width: 202px;
+    height: 63px;
+}
+
+#mainSection {
+    display: flex;
+    text-align: center;
+}
+
+#leftSide{
+    background: #514988;
+    width: 45%;
+}
+
+#leftSide h1{
+    margin: 0px;
+    color: #F3C61F;
+    font-size: 50px;
+    font-weight: 700;
+    padding: 1rem;
+    
+}
+
+#leftSide h2{
+    margin: 0px;
+    color: white;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+#leftSide p{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#rightSide{
+    background: white;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+}
+
+.countdown{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: #514988;
+    margin: 0px;
+    padding: 1rem;
+}
+
+.pinkTitle {
+    color:#E33881;
+    font-size: 21px;
+    margin: 0px;
+}
+
+#rightSide video{
+    width: 95%;
+    padding: 1rem;
+}
+
+#ticketSection {
+    background-color: white;
+}
+
+#ticketSection h2 {
+    margin: 0px;
+    padding: 1rem 4rem;
+    color: #F3C61F;
+    font-size: 21px;
+}
+
+.tickets {
+    display: flex;
+    padding: 1rem 3rem;
+    align-items: center;
+}
+
+#ticketsContainer {
+    width: 60%;
+}
+
+#ticketsContainer img{
+    width: 21%;
+}
+
+.tickets button{
+    width: 35%;
+    height: 6rem;
+    background-color: #514988;
+    color: white;
+    border: 0px;
+    border-radius: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.ticketHighlight{
+box-shadow: 10px 10px 10px 10px grey;
+cursor: pointer;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCXP 2022</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="countdown.js" defer></script>
+    <script src="button.js" defer></script>
+    <script src="highlightCards.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="./images/ccxp.svg" alt="CCXP logo">
+    </header>
+    <section id="mainSection">
+        <div id="leftSide">
+            <h1>REVIVA O ÉPICO</h1>
+            <h2>DE 01 A 04 DE DEZEMBRO</h2>
+            <p>Você consegue sentir? É aquela sensação de<br>
+                finalmente poder falar em voz alta: "estamos<br>
+                em casa". Sim, em dezembro de 2022,<br>
+                teremos a volta da CCXP física. Mas não será<br>
+                qualquer CCXP, vai ser a maior de todos os<br>
+                tempos. Prepare-se para visitar seus<br>
+                universos favoritos, explorar o Artists' Valley,<br>
+                se emocionar nos auditórios e encontrar<br>
+                aventuras épicas a cada passo pelos nossos<br>
+                corredores.</p>
+        </div>
+        <div id="rightSide">
+            <div class="countdown">
+                <div class="containerDay">
+                    <h2 class="day">Time</h2>
+                    <h3>Dias</h3>
+                </div>
+                <div class="containerHour">
+                    <h2 class="hour">Time</h2>
+                    <h3>Horas</h3>
+                </div>
+                <div class="containerMinute">
+                    <h2 class="minute">Time</h2>
+                    <h3>Minutos</h3>
+                </div>
+                <div class="containerSecond">
+                    <h2 class="second">Time</h2>
+                    <h3>Segundos</h3>
+                </div>
+            </div>
+            <h2 class="pinkTitle">PARA A MAIOR CCXP DE TODOS OS TEMPOS</h2>
+            <video autoplay loop>
+                <source src="./videos/Arlequina.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+    <section id="ticketSection">
+        <h2>AINDA DA TEMPO DE GARANTIR O SEU, MAS CORRE!</h2>
+        <div class="tickets">
+            <div id="ticketsContainer">
+                <img src="./images/quinta.svg" alt="Ingresso de quinta-feira" onmouseover="highlightCard('#quinta')" id="quinta" onmouseout="highlightCard('#quinta')">
+                <img src="./images/sexta.svg" alt="Ingresso de sexta-feira" onmouseover="highlightCard('#sexta')" id="sexta" onmouseout="highlightCard('#sexta')">
+                <img src="./images/sabado.svg" alt="Ingresso de sábado" onmouseover="highlightCard('#sabado')" id="sabado" onmouseout="highlightCard('#sabado')">
+                <img src="./images/domingo.svg" alt="Ingresso de domingo" onmouseover="highlightCard('#domingo')" id="domingo" onmouseout="highlightCard('#domingo')">
+            </div>
+
+            <button id="mainButton" type="button" onmouseover="changeYellow()" onmouseleave="changePurple()">GARANTA O SEU!</button>
+        </div>
+    </section>
+</body>
+</html>
